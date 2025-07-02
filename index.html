@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dodesigner Gallery</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: sans-serif;
+      background: #fff;
+      color: #222;
+      line-height: 1.6;
+    }
+    header {
+      padding: 1em 2em;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid #ddd;
+    }
+    nav a {
+      margin-left: 1em;
+      text-decoration: none;
+      color: #222;
+      font-weight: bold;
+    }
+    .hero {
+      padding: 2em;
+      text-align: center;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1em;
+      padding: 2em;
+    }
+    .grid img {
+      width: 100%;
+      display: block;
+    }
+    footer {
+      padding: 2em;
+      text-align: center;
+      font-size: 0.9em;
+      color: #666;
+      border-top: 1px solid #ddd;
+    }
+    .section-title {
+      font-size: 1.5em;
+      margin: 1em 2em 0.5em;
+      border-bottom: 1px solid #ccc;
+      padding-bottom: 0.2em;
+    }
+
+    .grid img{
+        width: 100%;
+        height: 100%;
+    }
+    ]
+  </style>
+</head>
+<body>
+  <header>
+    <div><strong>Dodesigner's GALLERY</strong></div>
+    <nav>
+      <a href="#">Main</a>
+      <a href="#">Exhibitions</a>
+      <a href="#">Press</a>
+      <a href="#">Notice</a>
+      <a href="#">About</a>
+    </nav>
+  </header>
+
+  <div class="hero">
+    <h1>귀여운거 너무 좋아</h1>
+    <p>모든건 다 핀터레스트에서 퍼왔습니다.</p>
+  </div>
+
+  <div class="section-title">Current Exhibition</div>
+  <div class="grid">
+    <img src="images/1.jpg" alt="Current Exhibition 1" />
+    <img src="images/2.jpg" alt="Current Exhibition 2" />
+    <img src="images/3.jpg" alt="Current Exhibition 3" />
+  </div>
+
+  <div class="section-title">Past Exhibitions</div>
+  <div class="grid">
+    <img src="images/4.jpg" alt="Past Exhibition 1" />
+    <img src="images/5.jpg" alt="Past Exhibition 2" />
+    <img src="images/6.jpg" alt="Past Exhibition 3" />
+  </div>
+
+  <div class="section-title">Empty Plate Series</div>
+  <div class="grid">
+    <img src="images/7.jpg" alt="Empty Plate 1" />
+    <img src="images/8.jpg" alt="Empty Plate 2" />
+    <img src="images/9.jpg" alt="Empty Plate 3" />
+  </div>
+
+  <footer>
+    &copy; 2025 Pinterest Gallery. All rights reserved.
+  </footer>
+</body>
+</html>
+
